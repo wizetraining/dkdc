@@ -115,7 +115,13 @@ mentionné.
 
 ![Type d'emplacement Régional et choix de la région](../images/image4.png)
 
-**Étape 5 - Taille du node pool.** Dans le menu de gauche, sous *POOLS DE NŒUDS*, cliquez sur
+**Étape 5 - Autoscaling vertical des Pods.** Dans le menu de gauche, ouvrez **Paramètres avancés**
+et cochez **Activer l'autoscaling vertical des pods** (section *Automatisation* ; il servira au
+Lab 11).
+
+![Activer Autoscaling vertical des Pods](../images/image4bis.png)
+
+**Étape 6 - Taille du node pool.** Dans le menu de gauche, sous *POOLS DE NŒUDS*, cliquez sur
 **default-pool** :
 
 * **Nombre de nœuds (par zone)** : **1**. La console affiche *Total (dans toutes les zones) : 3* ;
@@ -123,16 +129,12 @@ mentionné.
 
 ![Nombre de nœuds par zone du default-pool](../images/image5.png)
 
-**Étape 6 - Type de machine.** Sous *default-pool*, cliquez sur **Nœuds** :
+**Étape 7 - Type de machine.** Sous *default-pool*, cliquez sur **Nœuds** :
 
 * **Type de machine** : **e2-medium** (2 vCPU partagés, 4 Go de mémoire) ;
 * **Taille du disque de démarrage** : **50** Go.
 
 ![Type de machine e2-medium et taille du disque](../images/image6.png)
-
-**Étape 7 - Autoscaling vertical des Pods.** Dans le menu de gauche, ouvrez **Paramètres avancés**
-et cochez **Activer l'autoscaling vertical des pods** (section *Automatisation* ; il servira au
-Lab 11).
 
 **Étape 8 - Créer.** Observez au passage le **coût mensuel estimé** affiché à droite, puis cliquez
 sur **Créer**. La création prend 5 à 10 minutes : pendant ce temps, passez à la Partie 3.
