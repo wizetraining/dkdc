@@ -120,10 +120,3 @@ Ce qui coûte, en plus des 3 nœuds :
 
 Chaque lab se termine par son ménage (🧹). En fin de formation, la **Partie 6 du Lab 00** explique
 comment supprimer le cluster sans rien laisser derrière soi.
-
-> **Note pour le formateur :** les labs n'ont pas été rejoués de bout en bout sur GKE au moment de
-> leur rédaction. Faites un passage complet avant la première session, en particulier : les libellés
-> du formulaire de création de la console (Lab 00), la signature des certificats clients par l'API
-> `CertificateSigningRequest` (Lab 12), l'échafaudage de `helm create` selon la version de Helm et la
-> publication dans Harbor (Lab 14), l'accès à Argo CD via Ingress NGINX (Lab 15), et la tenue en
-> ressources des nœuds e2-medium.

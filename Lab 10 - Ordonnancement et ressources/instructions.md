@@ -390,8 +390,7 @@ spec:
     args: ["--vm", "1", "--vm-bytes", "100M", "--vm-hang", "1"]
 ```
 
-*(Cette image n'est pas sur ECR : si elle n'est pas accessible depuis votre cluster, prévenez le
-formateur.)*
+*(Cette image n'est pas sur ECR : si elle n'est pas accessible depuis votre cluster, prévenez le formateur.)*
 
 <details><summary>Correction</summary>
 
